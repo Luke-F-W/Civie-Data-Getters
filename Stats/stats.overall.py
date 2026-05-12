@@ -16,7 +16,7 @@ filepath = os.path.dirname(file)
 filepathabove = os.path.dirname(filepath)
 
 #paths
-memberss = os.path.join(filepathabove, "Database", "json-members", "members.json")
+memberss = os.path.join(filepathabove, "Database", "json-all", "members.json")
 outputt = os.path.join(filepathabove, "Database", "json-stats")
 
 lobbyy = os.path.join(filepathabove, "Database", "json-all", "lobbying.json")

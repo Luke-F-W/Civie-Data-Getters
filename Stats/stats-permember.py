@@ -23,7 +23,7 @@ lobbyy = os.path.join(filepathabove, "Database", "json-lobbying")
 questionss = os.path.join(filepathabove, "Database", "json-questions")
 votess = os.path.join(filepathabove, "Database", "json-votes")
 debatess = os.path.join(filepathabove, "Database", "json-debates")
-memberss = os.path.join(filepathabove, "Database", "json-members", "members.json")
+memberss = os.path.join(filepathabove, "Database", "json-all", "members.json")
 outputt = os.path.join(filepathabove, "Database", "json-stats")
 
 #normalise names
@@ -46,7 +46,7 @@ membercodes = []
 with open(memberss, "r", encoding="utf-8") as f:
     memberdata = json.load(f)
     for member in memberdata:
-        toappend = member["memberCode"]
+        toappend = member["member"]["memberCode"]
 
         membercodes.append(toappend)
 
