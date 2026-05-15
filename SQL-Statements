@@ -62,3 +62,14 @@ AbstainTally TEXT,
 Outcome TEXT,
 ContextDate TEXT,
 JSON TEXT);
+
+Members
+
+CREATE TABLE Members (
+MemberID INTEGER PRIMARY KEY,
+FullName TEXT,
+FirstName TEXT,
+LastName TEXT,
+Image TEXT,
+MemberCode TEXT,
+JSON TEXT);
