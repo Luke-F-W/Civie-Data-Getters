@@ -1,5 +1,7 @@
-#this is just a list of sql statements for creating tables for my SQLite database
-#bills
+this is just a list of sql statements for creating tables for my SQLite database :D
+
+Legislation
+
 CREATE TABLE Legislation (
 BillPrimaryKey INTEGER PRIMARY KEY,
 BillNo TEXT,
@@ -12,5 +14,22 @@ ShortTitleGa TEXT,
 Source TEXT,
 Status TEXT,
 contextDate TEXT,
+Membercodes TEXT,
+JSON TEXT);
+
+Lobbying
+
+CREATE TABLE Lobbying (
+LobbyingPrimaryKey INTEGER PRIMARY KEY,
+ID TEXT,
+LobbyistName TEXT,
+contextDate TEXT,
+RelevantMatter TEXT,
+Details TEXT,
+Lobbied TEXT,
+SubjectMatter TEXT,
+IntendedResults TEXT,
+LobbyingActivities TEXT,
+MainLobbyist TEXT,
 Membercodes TEXT,
 JSON TEXT);
