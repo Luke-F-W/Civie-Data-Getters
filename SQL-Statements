@@ -1,0 +1,16 @@
+#this is just a list of sql statements for creating tables for my SQLite database
+#bills
+CREATE TABLE Legislation (
+BillPrimaryKey INTEGER PRIMARY KEY,
+BillNo TEXT,
+BillType TEXT,
+BillYear TEXT,
+LongTitleEn TEXT,
+LongTitleGa TEXT,
+ShortTitleEn TEXT,
+ShortTitleGa TEXT,
+Source TEXT,
+Status TEXT,
+contextDate TEXT,
+Membercodes TEXT,
+JSON TEXT);
