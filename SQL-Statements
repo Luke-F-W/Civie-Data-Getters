@@ -46,3 +46,19 @@ QuestionTo TEXT,
 QuestionBy TEXT,
 MembercodeBy TEXT,
 JSON TEXT);
+
+Votes
+
+CREATE TABLE Votes (
+VotePrimaryKey INTEGER PRIMARY KEY,
+isBill TEXT,
+Vote TEXT,
+ForVoters TEXT,
+ForTally TEXT,
+AgainstVoters TEXT,
+AgainstTally TEXT,
+AbstainVotes TEXT,
+AbstainTally TEXT,
+Outcome TEXT,
+ContextDate TEXT,
+JSON TEXT);
