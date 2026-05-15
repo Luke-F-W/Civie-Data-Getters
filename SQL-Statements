@@ -33,3 +33,16 @@ LobbyingActivities TEXT,
 MainLobbyist TEXT,
 Membercodes TEXT,
 JSON TEXT);
+
+Questions
+
+CREATE TABLE Questions (
+QuestionPrimaryKey INTEGER PRIMARY KEY,
+QuestionNumber TEXT,
+Question TEXT,
+answerText TEXT,
+contextDate TEXT,
+QuestionTo TEXT,
+QuestionBy TEXT,
+MembercodeBy TEXT,
+JSON TEXT);
