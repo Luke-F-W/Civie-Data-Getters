@@ -73,3 +73,14 @@ LastName TEXT,
 Image TEXT,
 MemberCode TEXT,
 JSON TEXT);
+
+Debates
+
+CREATE TABLE Debates (
+DebateID INTEGER PRIMARY KEY,
+ContextDate TEXT,
+MemberCodes TEXT,
+DebateTitles TEXT,
+HouseCode TEXT,
+DebateType TEXT,
+JSON TEXT);
